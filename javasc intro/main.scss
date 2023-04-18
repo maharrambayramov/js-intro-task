@@ -1,0 +1,233 @@
+@import url(_reset.scss);
+@import url(_media.scss);
+
+
+section {
+    width: 100%;
+    margin: 0 auto;
+
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+
+        .shopping {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            margin-top: 100px;
+            margin-left: 50px;
+
+            h3 {
+                font-size: 20px;
+                color: #1e1e1e;
+            }
+
+            .line {
+                width: 350px;
+                height: 2px;
+                background-color: #e5e4e4;
+            }
+
+            h4 {
+                font-size: 16px;
+                color: #1e1e1e;
+                margin-bottom: 0;
+            }
+
+            p {
+                font-size: 14px;
+                margin-top: 0;
+            }
+
+            .orders {
+                width: 350px;
+                height: 100px;
+                border: 1px solid #e5e4e4;
+                margin: 15px;
+                margin-left: 0;
+                border-radius: 15px;
+                box-shadow: 2px 2px #464343;
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                align-items: center;
+                justify-content: space-between;
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                    margin-left: 5px;
+                    border-radius: 3px;
+                    object-fit: cover;
+                }
+
+                .icon {
+                    color: #1e1e1e;
+                    font-size: 20px;
+                    position: relative;
+                    top: 11px;
+                }
+
+                .price {
+                    position: relative;
+                    top: 11px;
+                }
+
+                i {
+                    position: relative;
+                    top: 5px;
+                }
+            }
+        }
+
+        .payments {
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            margin-top: 100px;
+            background-color: #565abb;
+            border-radius: 15px;
+            gap: 30px;
+            position: relative;
+
+            .container2 {
+                margin-left: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: white;
+
+                .header {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        margin: 10px;
+                        border-radius: 10px;
+                    }
+                }
+
+                .second {
+                    width: 100%;
+
+                    .payImages {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+
+                        img {
+                            width: 60px;
+                            height: 40px;
+                            border-radius: 5px;
+                            object-fit: cover;
+                        }
+
+                        #see {
+                            width: 60px;
+                            height: 40px;
+                            background-color: #7073c1;
+                            margin: 0;
+                            border-radius: 5px;
+                            text-align: center;
+                        }
+
+                    }
+
+                    .cardName {
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 10px;
+
+                        input {
+                            background-color: #6268C6;
+                            border-radius: 6px;
+                            border: none;
+                            padding: 10px;
+                            width: 90%;
+                        }
+                    }
+
+                    .cardDate {
+                        display: flex;
+                        flex-direction: row;
+
+                        input {
+                            background-color: #6268C6;
+                            border-radius: 6px;
+                            border: none;
+                            padding: 10px;
+                            width: 70%;
+                        }
+
+                        .card-date {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        .card-vertification {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                    }
+
+                    .scline {
+                        margin-top: 10px;
+                        width: 90%;
+                        height: 3px;
+                        background-color: #1e1e1e;
+                    }
+
+                    .total {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+
+                    .assign {
+                        margin-right: 10px;
+                    }
+
+                    .btn {
+                        width: 30%;
+                        padding: 20px;
+
+                        button {
+                            border-radius: 12px;
+                            background-color: #4DE1C1;
+                            position: absolute;
+                            bottom: 3px;
+                            left: 30px;
+                            right: 30px;
+                            border: none;
+
+                            span {
+                                margin-left: 100px;
+                            }
+                        }
+                    }
+
+                    // button{
+                    //     border-radius: 12px;
+                    //     background-color: #4DE1C1;
+                    //     position: absolute;
+                    //     bottom: 3px;
+                    //     left: 30px;
+                    //     right: 30px;
+                    //     border: none;
+                    //     span{
+                    //         margin-left: 100px;
+                    //     }
+                    // }
+                }
+            }
+        }
+    }
+}

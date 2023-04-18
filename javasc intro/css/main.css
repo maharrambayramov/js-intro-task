@@ -1,0 +1,187 @@
+@import url(_reset.scss);
+@import url(_media.scss);
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+section .container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+section .container .shopping {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+section .container .shopping h3 {
+  font-size: 20px;
+  color: #1e1e1e;
+}
+section .container .shopping .line {
+  width: 350px;
+  height: 2px;
+  background-color: #e5e4e4;
+}
+section .container .shopping h4 {
+  font-size: 16px;
+  color: #1e1e1e;
+  margin-bottom: 0;
+}
+section .container .shopping p {
+  font-size: 14px;
+  margin-top: 0;
+}
+section .container .shopping .orders {
+  width: 350px;
+  height: 100px;
+  border: 1px solid #e5e4e4;
+  margin: 15px;
+  margin-left: 0;
+  border-radius: 15px;
+  box-shadow: 2px 2px #464343;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+section .container .shopping .orders img {
+  width: 60px;
+  height: 60px;
+  margin-left: 5px;
+  border-radius: 3px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section .container .shopping .orders .icon {
+  color: #1e1e1e;
+  font-size: 20px;
+  position: relative;
+  top: 11px;
+}
+section .container .shopping .orders .price {
+  position: relative;
+  top: 11px;
+}
+section .container .shopping .orders i {
+  position: relative;
+  top: 5px;
+}
+section .container .payments {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 100px;
+  background-color: #565abb;
+  border-radius: 15px;
+  gap: 30px;
+  position: relative;
+}
+section .container .payments .container2 {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+section .container .payments .container2 .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+section .container .payments .container2 .header img {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 10px;
+}
+section .container .payments .container2 .second {
+  width: 100%;
+}
+section .container .payments .container2 .second .payImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+section .container .payments .container2 .second .payImages img {
+  width: 60px;
+  height: 40px;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section .container .payments .container2 .second .payImages #see {
+  width: 60px;
+  height: 40px;
+  background-color: #7073c1;
+  margin: 0;
+  border-radius: 5px;
+  text-align: center;
+}
+section .container .payments .container2 .second .cardName {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+section .container .payments .container2 .second .cardName input {
+  background-color: #6268C6;
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+  width: 90%;
+}
+section .container .payments .container2 .second .cardDate {
+  display: flex;
+  flex-direction: row;
+}
+section .container .payments .container2 .second .cardDate input {
+  background-color: #6268C6;
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+  width: 70%;
+}
+section .container .payments .container2 .second .cardDate .card-date {
+  display: flex;
+  flex-direction: column;
+}
+section .container .payments .container2 .second .cardDate .card-vertification {
+  display: flex;
+  flex-direction: column;
+}
+section .container .payments .container2 .second .scline {
+  margin-top: 10px;
+  width: 90%;
+  height: 3px;
+  background-color: #1e1e1e;
+}
+section .container .payments .container2 .second .total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+section .container .payments .container2 .second .assign {
+  margin-right: 10px;
+}
+section .container .payments .container2 .second .btn {
+  width: 30%;
+  padding: 20px;
+}
+section .container .payments .container2 .second .btn button {
+  border-radius: 12px;
+  background-color: #4DE1C1;
+  position: absolute;
+  bottom: 3px;
+  left: 30px;
+  right: 30px;
+  border: none;
+}
+section .container .payments .container2 .second .btn button span {
+  margin-left: 100px;
+}/*# sourceMappingURL=main.css.map */
